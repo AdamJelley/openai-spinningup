@@ -1,0 +1,6 @@
+python -m spinup.run sac_pytorch --env_name LunarLanderContinuous-v2 --cpu 1 --epochs 50 --seed 0 10 20 --data_dir /disk/scratch/s2139934/spinningup/data/sac --exp_name sac_alpha0.1_batch_size100 --alpha 0.1 --batch_size 100
+python -m spinup.run sac_pytorch --env_name LunarLanderContinuous-v2 --cpu 1 --epochs 50 --seed 0 10 20 --data_dir /disk/scratch/s2139934/spinningup/data/sac --exp_name sac_alpha0.1_batch_size200 --alpha 0.1 --batch_size 200
+python -m spinup.run sac_pytorch --env_name LunarLanderContinuous-v2 --cpu 1 --epochs 50 --seed 0 10 20 --data_dir /disk/scratch/s2139934/spinningup/data/sac --exp_name sac_alpha0.2_batch_size100 --alpha 0.2 --batch_size 100
+python -m spinup.run sac_pytorch --env_name LunarLanderContinuous-v2 --cpu 1 --epochs 50 --seed 0 10 20 --data_dir /disk/scratch/s2139934/spinningup/data/sac --exp_name sac_alpha0.2_batch_size200 --alpha 0.2 --batch_size 200
+python -m spinup.run sac_pytorch --env_name LunarLanderContinuous-v2 --cpu 1 --epochs 50 --seed 0 10 20 --data_dir /disk/scratch/s2139934/spinningup/data/sac --exp_name sac_alpha0.4_batch_size100 --alpha 0.4 --batch_size 100
+python -m spinup.run sac_pytorch --env_name LunarLanderContinuous-v2 --cpu 1 --epochs 50 --seed 0 10 20 --data_dir /disk/scratch/s2139934/spinningup/data/sac --exp_name sac_alpha0.4_batch_size200 --alpha 0.4 --batch_size 200
