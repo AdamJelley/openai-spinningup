@@ -8,6 +8,7 @@ USER = os.getenv('USER')
 SCRATCH_DISK = '/disk/scratch'
 SCRATCH_HOME = f'{SCRATCH_DISK}/{USER}'
 
+# NEED TO SET ALGO, ENV AND DATA_DIR HERE
 ALGO = 'sac'
 ENV='LunarLanderContinuous-v2'
 DATA_DIR = f'{SCRATCH_HOME}/spinningup/data/{ALGO}'
